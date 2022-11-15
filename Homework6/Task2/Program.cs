@@ -23,9 +23,9 @@ if (!isParsedNum4)
     Console.WriteLine("Не правильно введенны данные , повторите ввод");
 }
 
-if (k1 == k2 || b1 == b2)
+if ( k1 == k2 ||b1 == b2)
 {
-    Console.WriteLine("Не правильно введены данные");
+    Console.WriteLine("Не правильно введены данные, прямые не пересекаются");
 }
 else
 {
@@ -38,3 +38,4 @@ else
     }
     Console.WriteLine($"Координаты точки пересечения [{intersectionCoordinates.Item1} ; {intersectionCoordinates.Item2}]");
 }
+ 
