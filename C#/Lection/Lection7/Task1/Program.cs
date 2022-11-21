@@ -1,10 +1,8 @@
-﻿int n = 10;
-int factorial = Factorial(n);
-int Factorial(int n)
+﻿int n = 5;
+int a = 3;
+int powerRec = PowerRec(a,n);
+int PowerRec(int a,int n)
 {
-    if (n == 1)
-        return 1;
-    else
-        return n * Factorial(n - 1);
+ return n==0 ? 1 : PowerRec(a,n-1)*a;
 }
-Console.WriteLine(factorial);
+Console.WriteLine(powerRec);
